@@ -13,4 +13,7 @@ public class Welcomer{
 	public String saySome(){
 		return "something in the way";
 	}
+		public String FindHunter(){
+		return "A true hunter never gives up!";
+	}
 }
