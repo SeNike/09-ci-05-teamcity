@@ -30,7 +30,13 @@
 8. Мигрируйте `build configuration` в репозиторий.
 9. Создайте отдельную ветку `feature/add_reply` в репозитории.
 10. Напишите новый метод для класса Welcomer: метод должен возвращать произвольную реплику, содержащую слово `hunter`.
+
+[Welcomer.java](https://github.com/SeNike/09-ci-05-teamcity/blob/main/src/main/java/plaindoll/Welcomer.java)
+
 11. Дополните тест для нового метода на поиск слова `hunter` в новой реплике.
+
+[WelcomerTest.java](https://github.com/SeNike/09-ci-05-teamcity/blob/main/src/test/java/plaindoll/WelcomerTest.java)
+
 12. Сделайте push всех изменений в новую ветку репозитория.
 13. Убедитесь, что сборка самостоятельно запустилась, тесты прошли успешно.
 
